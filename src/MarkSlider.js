@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Slider, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
+import Slider from '@react-native-community/slider';
 
 export default class MarkedSlider extends React.PureComponent {
   static defaultProps = {
